@@ -520,7 +520,7 @@ function updateVideoLayout() {
     const count = remoteVideosContainer.children.length;
     let cols = 1;
     if (count > 1) cols = 2;
-    if (count > 4) cols = 3; // Example: for 5-9 videos, use 3 columns
+    if (count > 4) cols = 3; // Example: for 5-9 videos, use 3 column
     if (count > 9) cols = 4; // Example: for 10+ videos, use 4 columns
     
     remoteVideosContainer.style.gridTemplateColumns = `repeat(${cols}, 1fr)`;
